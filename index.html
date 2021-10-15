@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notfications</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- Sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/186528669_536623957331330_8226710830499718010_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=9DAC3aBq4-UAX8hQdAo&_nc_ht=scontent-atl3-2.xx&oh=c5881fc611e3f3b7169d79cc7f9274d5&oe=6190F260"
+              alt=""
+            />
+            <input type="text" placeholder="Whats on Your Mind?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+
+      <!-- Posts Start -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/186528669_536623957331330_8226710830499718010_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=9DAC3aBq4-UAX8hQdAo&_nc_ht=scontent-atl3-2.xx&oh=c5881fc611e3f3b7169d79cc7f9274d5&oe=6190F260"
+            alt=""
+          />
+        </div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Eric Hampton
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span>
+                  @old_sport12
+                </span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>The best Coloring Book of any B List celeb on the market.</p>
+            </div>
+          </div>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/71x233QMgFL.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__footer">
+          <span class="material-icons"> repeat </span>
+          <span class="material-icons"> favorite_border </span>
+          <span class="material-icons"> publish </span>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNDYiW6INM6frDxm74qFVMcphYZlN1gZkItg&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Eric Hampton
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span>
+                  @danny_daGoat
+                </span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Audtioning for Wolverine Baby!! So I just started slashin.</p>
+            </div>
+          </div>
+          <img
+            src="https://i1.wp.com/nypost.com/wp-content/uploads/sites/2/2019/05/danny-devito.jpg?quality=80&strip=all&ssl=1"
+            alt=""
+          />
+        </div>
+
+        <div class="post__footer">
+          <span class="material-icons"> repeat </span>
+          <span class="material-icons"> favorite_border </span>
+          <span class="material-icons"> publish </span>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="https://i.pinimg.com/736x/88/7d/b4/887db4194534cdbb49c165757fe94209.jpg"
+            alt=""
+          />
+        </div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Eric Hampton
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span>
+                  @dailyDev
+                </span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>When you have a 500 Error on top of 500 errors.</p>
+            </div>
+          </div>
+          <img
+            src="https://i.kym-cdn.com/entries/icons/original/000/025/382/Screen_Shot_2018-02-06_at_3.37.14_PM.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__footer">
+          <span class="material-icons"> repeat </span>
+          <span class="material-icons"> favorite_border </span>
+          <span class="material-icons"> publish </span>
+        </div>
+      </div>
+      <!-- Posts Ends -->
+    </div>
+    <!-- feed ends -->
+    <!--  widget Start -->
+    <div class="widgets">
+      <div class="widget__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="search Twitter" />
+      </div>
+      <div class="widget__widgetContainer">
+        <h2>What's Going On?</h2>
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw"
+          >A Twitter List by TwitterDev</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </div>
+    </div>
+    <!--  widget Ends -->
+  </body>
+</html>
