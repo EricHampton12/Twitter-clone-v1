@@ -162,6 +162,7 @@ body {
 
 .post__body img {
   width: 450px;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 20px;
 }
@@ -241,4 +242,8 @@ body {
   padding-bottom: 10px;
   font-size: 18px;
   font-weight: 800;
+}
+
+.post__footer span {
+  cursor: pointer;
 }
